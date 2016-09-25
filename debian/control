@@ -1,0 +1,12 @@
+Source: ros-indigo-pi-trees-ros
+Section: misc
+Priority: extra
+Maintainer: Patrick Goebel <patrick@pirobot.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/pi_trees
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pi-trees-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-pi-trees-lib, ros-indigo-roscpp, ros-indigo-rospy
+Description: ROS wrappers for the pi_trees_lib Library
